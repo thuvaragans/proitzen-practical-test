@@ -82,7 +82,6 @@ These are example requests and responses for the API endpoints. You can use them
     "id": 1
   },
   {
-    "id": 2,
     "name": "Henry Davis",
     "email": "henry.davis@example.com",
     "phone": "0129988776",
