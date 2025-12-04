@@ -61,3 +61,33 @@ Default server URL: http://localhost:5000
 
 All CRUD operations were tested using **Postman** to ensure that the API endpoints work as expected.  
 You can use Postman or any similar API testing tool to interact with the backend.
+
+---
+
+## API Examples
+
+These are example requests and responses for the GET API endpoints. You can use them in Postman or any API client.
+
+### Get All Contacts
+- **Method:** GET  
+- **URL:** `http://localhost:5000/contacts`  
+
+**Response Example:**
+```json
+[
+  {
+    "id": 1,
+    "name": "Lucas Rodriguez",
+    "email": "lucas.rodriguez@example.com",
+    "phone": "0103344556"
+  },
+  {
+    "id": 2,
+    "name": "Henry Davis",
+    "email": "henry.davis@example.com",
+    "phone": "0129988776"
+  }
+]
+json```
+
+To view a specific Contact, replace the URL with "contacts/:id"
