@@ -54,3 +54,10 @@ Default server URL: http://localhost:5000
 1. Data is stored in a JSON file, so it will reset if the file is deleted.
 2. No authentication implemented.
 3. No database integration.
+
+---
+
+## Testing
+
+All CRUD operations were tested using **Postman** to ensure that the API endpoints work as expected.  
+You can use Postman or any similar API testing tool to interact with the backend.
