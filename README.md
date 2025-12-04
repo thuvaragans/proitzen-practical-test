@@ -1,1 +1,56 @@
-proitzen practical test
+# Simple Contact Manager - Backend
+
+This is the **backend** for the Simple Contact Manager application.  
+It provides a **REST API** to perform CRUD operations on contacts stored in a JSON file.
+
+---
+
+## Features
+
+- List all contacts
+- Get a single contact by ID
+- Add a new contact
+- Update an existing contact
+- Delete a contact
+- Input validation:
+  - Name is required and cannot contain numbers
+  - Email must be in valid format
+  - Phone number must be 10 digits and start with `0`
+
+---
+
+## Tech Stack
+
+- Node.js
+- Express.js
+- JSON file for data storage
+- CORS support for frontend integration (Not implemented)
+
+---
+
+## Setup & Installation
+
+1. Clone the repository:
+git clone <proitzen-practical-test>
+
+2. Navigate to the backend folder:
+cd backend
+
+3. Install dependencies:
+npm install
+
+4. Create a .env file to set the PORT (optional):
+PORT=5000
+
+5. Start the server:
+npm start
+
+Default server URL: http://localhost:5000 (or the port set in .env)
+
+---
+
+## Known Issues / Limitations
+
+1. Data is stored in a JSON file, so it will reset if the file is deleted.
+2. No authentication implemented.
+3. No database integration.
