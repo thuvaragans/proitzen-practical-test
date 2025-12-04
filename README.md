@@ -31,7 +31,7 @@ It provides a **REST API** to perform CRUD operations on contacts stored in a JS
 ## Setup & Installation
 
 1. Clone the repository:
-git clone <proitzen-practical-test>
+git clone this repo
 
 2. Navigate to the backend folder:
 cd backend
