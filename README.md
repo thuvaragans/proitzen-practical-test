@@ -10,8 +10,8 @@ It provides a **REST API** to perform CRUD operations on contacts stored in a JS
 - List all contacts
 - Get a single contact by ID
 - Add a new contact
-- Update an existing contact
-- Delete a contact
+- Update an existing contact by ID
+- Delete a contact by ID
 - Input validation:
   - Name is required and cannot contain numbers
   - Email must be in valid format
