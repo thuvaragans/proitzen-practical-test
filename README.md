@@ -66,9 +66,9 @@ You can use Postman or any similar API testing tool to interact with the backend
 
 ## API Examples
 
-These are example requests and responses for the GET API endpoints. You can use them in Postman or any API client.
+These are example requests and responses for the API endpoints. You can use them in Postman or any API client.
 
-### Get All Contacts
+### 1. Get All Contacts
 - **Method:** GET  
 - **URL:** `http://localhost:5000/contacts`  
 
@@ -89,5 +89,22 @@ These are example requests and responses for the GET API endpoints. You can use 
     "id": 2
   }
 ]
+```
+### 2. Get Single Contact by ID
+- **Method:** GET  
+- **URL:** `http://localhost:5000/contacts/:id` 
+- **URL:** Replace :id with the ID of the contact you want to retrieve. 
 
-To view a specific Contact, replace the URL with "contacts/:id"
+### 3. Create New Contact
+- **Method:** POST  
+- **URL:** `http://localhost:5000/contacts`
+
+### 4. Update an Existing Contact
+- **Method:** PUT  
+- **URL:** `http://localhost:5000/contacts/:id`
+- **URL:** Replace :id with the contact ID to update.
+
+### 5. Delete an Existing Contact
+- **Method:** DELETE  
+- **URL:** `http://localhost:5000/contacts/:id`
+- **URL:** Replace :id with the contact ID to delete.
