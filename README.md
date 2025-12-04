@@ -76,18 +76,18 @@ These are example requests and responses for the GET API endpoints. You can use 
 ```json
 [
   {
-    "id": 1,
     "name": "Lucas Rodriguez",
     "email": "lucas.rodriguez@example.com",
-    "phone": "0103344556"
+    "phone": "0103344556",
+    "id": 1
   },
   {
     "id": 2,
     "name": "Henry Davis",
     "email": "henry.davis@example.com",
-    "phone": "0129988776"
+    "phone": "0129988776",
+    "id": 2
   }
 ]
-json```
 
 To view a specific Contact, replace the URL with "contacts/:id"
