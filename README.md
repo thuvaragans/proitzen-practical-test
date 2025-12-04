@@ -45,7 +45,7 @@ PORT=5000
 5. Start the server:
 npm start
 
-Default server URL: http://localhost:5000 (or the port set in .env)
+Default server URL: http://localhost:5000
 
 ---
 
